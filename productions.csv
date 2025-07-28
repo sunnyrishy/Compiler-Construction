@@ -1,0 +1,9 @@
+Production Number,Left Side,Right Side
+P0,E,T E'
+P1,E',+ T E'
+P2,E',epsilon
+P3,F,id
+P4,F, (  E  ) 
+P5,T,F T'
+P6,T',* F T'
+P7,T',epsilon

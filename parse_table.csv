@@ -1,0 +1,6 @@
+Non-Terminal,$,(,),*,+,id
+E,-,P0: E -> T E',-,-,-,P0: E -> T E'
+E',P2: E' -> epsilon,-,P2: E' -> epsilon,-,P1: E' -> + T E',-
+F,-,P4: F ->  (  E  ) ,-,-,-,P3: F -> id
+T,-,P5: T -> F T',-,-,-,P5: T -> F T'
+T',P7: T' -> epsilon,-,P7: T' -> epsilon,P6: T' -> * F T',P7: T' -> epsilon,-

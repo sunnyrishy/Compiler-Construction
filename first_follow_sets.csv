@@ -1,0 +1,6 @@
+Non-Terminal,FIRST Set,FOLLOW Set
+E,"(, id","$, )"
+E',"+, epsilon","$, )"
+F,"(, id","$, ), *, +"
+T,"(, id","$, ), +"
+T',"*, epsilon","$, ), +"
